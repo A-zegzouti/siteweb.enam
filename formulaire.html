@@ -1,0 +1,101 @@
+<html>
+<head>
+<title> les formulaires</title>
+<body background="prof.jpg">
+</head>
+<body>
+<hr>
+<center><b><FONT color="#FCF3CF" SIZE=10><a name="inscription">INSCRIPTION</a></FONT></b></center>
+<HR>
+
+<form>
+<p>
+       <label for="name">Nom d'agriculteur:</label>
+       <input type="text" name="nom" id="nom" />
+       
+       <br />
+       <label for="pass">N° CIN :</label>
+       <input type="text" name="text" id="text" />
+
+       <br />
+       <label for="name">E-mail:</label>
+       <input type="email" />
+
+
+       <br />
+       <label for="name">Date de naissance:</label>
+       <input type="date" />
+       
+       <br />
+       <label for="name">Nom de l'exploitation:</label>
+       <input type="text" name="text" id="text" />
+
+       <br />
+       <label for="name">Superficie:</label>
+       <input type="text" name="text" id="text" />
+
+       <br />
+       <label for="name">Adresse de l'exploitation:</label>
+       <input type="text" name="text" id="text" />
+   
+      
+   </p>
+<p>
+       <label for="description">Décrivez votre exploitation et la filière que vous pratiquez</label><br />
+       <textarea name="description" id="description"rows="15" cols="80"></textarea>
+   </p>
+<p>
+       <label for="description">
+       Quel sont les objectifs de votre adhération à notre société
+       </label>
+       <br />
+       
+       <textarea name="description" id="description" rows="10" cols="50">
+       </textarea>    
+   
+
+ <p> 
+      <fieldset width ="20%">
+       <legend>Employé ou propriétaire de l'exploitation :</legend>
+       <input type="checkbox" name="employé" id="employé" /> <label for="employé">Employé</label><br />
+       <input type="checkbox" name="propriétaire" id="propriétaire" /> <label for="propriétaire">Propriétaire</label><br />
+ </fieldset>
+   </p>
+   <br />
+       <legend>Tu trouve certainement des problèmes dans:</legend>
+       <input type="checkbox" name="L'irrigation" id="L'irrigation" /> <label for="L'irrigation">L'irrigation</label><br />
+       <input type="checkbox" name="Labour" id="Labour" /> <label for="Labour">Labour</label><br />
+       <input type="checkbox" name="élevage" id="élevage" /> <label for="élevage">Elevage</label><br />
+       <input type="checkbox" name="traitement phytosanitaire" id="traitement phytosanitaire" /> <label for="traitement phytosanitaire">Traitements phytosanitaires</label><br />
+       <input type="checkbox" name="alimentation de bétails" id="alimentation de bétails" /> <label for="alimentation de bétails">Alimentation de bétails</label><br />
+       <input type="checkbox" name="apport des engrais" id="apport des engrais" /> <label for="apport des engrais">Apport des engrais</label><br />
+       <input type="checkbox" name="Autres" id="Autres" /> <label for="Autres">Autres</label><br />
+ <br />
+<label for="selection">c'est quoi le plus grand problème parmis ceux-ci ?:</label>
+<select name="problèmes" id="problème">
+    <option value="">-précise ton choix-</option>
+    <option value="irrigation">L'irrigation</option>
+    <option value="labour">Labour</option>
+    <option value="élevage">Elevage</option>
+    <option value="Traitement phytosanitaire">Traitements phytosanitaires</option>
+    <option value="apport des engrais">Apport des engrais</option>
+    <option value="Autres">Autres</option>
+</select>
+</p>
+<br/>
+       <label for="description">
+       Décrit nous vos ambitions personnelles.
+       </label>
+       <br />
+       
+       <textarea name="description" id="description" rows="10" cols="50">
+       </textarea>    
+   
+ <br />
+<p>
+<input type="submit" value="Envoyer"> 
+<input type="submit" value="Annuler"> 
+</p>  
+</form>
+</body>
+</html> 
